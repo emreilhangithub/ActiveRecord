@@ -8,6 +8,7 @@
 
 *Merhaba bu projemde **Codeigniter** Fremwork kullanarak Personel listesi olusturdum projede personel ekleme , personel silme ve personel düzenleme işlemleri yapılabilmektedir* 
 
+#### Kaynaklar ####
 ![anasayfa](https://github.com/emreilhangithub/ActiveRecord/blob/main/images/anasayfa.PNG)
 ![liste](https://github.com/emreilhangithub/ActiveRecord/blob/main/images/liste.PNG)
 ![ekle](https://github.com/emreilhangithub/ActiveRecord/blob/main/images/ekle.PNG)
