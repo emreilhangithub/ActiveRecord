@@ -5,7 +5,7 @@
 *Merhaba bu projemde 
 **Codeigniter** Fremwork kullanarak Personel listesi olusturdum projede personel ekleme , personel silme ve personel düzenleme işlemleri yapılabilmektedir* 
 
-![metin](resim linki)
+![metin](https://github.com/emreilhangithub/ActiveRecord/blob/main/images/anasayfa.PNG)
 
 ## Codeigniter Nedir 
 
