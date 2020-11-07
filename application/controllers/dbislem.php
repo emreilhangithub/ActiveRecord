@@ -61,10 +61,9 @@ class Dbislem extends CI_Controller
 		->row();
 
 		//print_r($row);
-
-
-		$viewData = new stdClass();
-		$viewData->rows = $rows;
+				
+	    $viewData = array(
+	    	'rows' => $rows);
 
 		$this->load->view("duzenle",$viewData);
 
