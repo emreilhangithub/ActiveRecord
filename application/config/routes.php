@@ -49,12 +49,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'welcome';
+$route['default_controller'] = 'Anasayfa';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 
-$route['input'] = "inputislem/index";
-$route['input/(.*)'] = "inputislem/$1";
-// 1 ) eger input yazarsam sen bunu inputislem indexe yonlendir  
-// 2) 
+$route['insertPage'] = 'Liste/insertPage'; //insert page akıllı hala getirdik linke Liste/insertPage yazmadık yani 

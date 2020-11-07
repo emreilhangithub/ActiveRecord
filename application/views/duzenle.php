@@ -1,29 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>Düzenleme Sayfası</title>
+	<title>Personel Bilgi Duzenleme Sayfası</title>
 </head>
-<body style="background-color: green">
-
-<form action="<?php echo base_url("dbislem/update/$rows->id"); ?>" method="post">
-	
-	<input type="text" name="title"
-	value="<?php echo $rows->title ?>" 
-	>	<br> <br>
-
- 	<textarea name="detail" cols="30" rows="10"	>
- 		<?php echo $rows->detail ?>
- 		</textarea><br>
-
- 	<button type="submit">Kaydet</button>
+<body>
 
 
+	<h3>Personel Bilgi Duzenleme Sayfası </h3>
 
-</form>
-	
+	<form action="<?php echo base_url("Liste/update/$listele->id") ?>" method="post"> 
 
+	<span> İsim = </span>  <input type="text" name="isim" placeholder="İsim Giriniz" value="<?php echo($listele->isim); ?>"> <br>
+	<span> Soyisim = </span> <input type="text" name="soyisim" placeholder="Soyisim Giriniz" value="<?php echo($listele->soyisim); ?>"> <br>
+	<span> Yaş = </span> <input type="text" name="yas" placeholder="Yaş Giriniz" value="<?php echo($listele->yas); ?>"> <br>
+	<span> Mail = </span> <input type="email" name="mail" placeholder="Mail Giriniz" value="<?php echo($listele->mail); ?>"> <br><br>
 
+	<button>Güncelle</button>
+
+	</form>
 
 </body>
 </html>

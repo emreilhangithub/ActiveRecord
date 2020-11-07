@@ -1,13 +1,10 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Welcome extends CI_Controller {
+class Anasayfa extends CI_Controller {
 
 	public function index()
 	{
-			
-
-
-		$this->load->view('view_control'); 
+		$this->load->view('anasayfa'); 
 	}
 }
