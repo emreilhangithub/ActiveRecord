@@ -15,7 +15,7 @@
 
 ### Anasayfa
 ![anasayfa](https://github.com/emreilhangithub/ActiveRecord/blob/main/images/anasayfa.PNG)
-### Listeme Sayfası
+### Listeleme Sayfası
 ![liste](https://github.com/emreilhangithub/ActiveRecord/blob/main/images/liste.PNG)
 ### Ekleme Sayfası
 ![ekle](https://github.com/emreilhangithub/ActiveRecord/blob/main/images/ekle.PNG)
